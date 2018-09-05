@@ -52,6 +52,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+                    </li>  
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#fitur">Fitur</a>
                     </li>
                     <li class="nav-item">
@@ -61,7 +64,7 @@
                         <a class="nav-link js-scroll-trigger" href="#testimoni">Testimoni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#bantu">Bantu Kami</a>
+                        <a class="nav-link js-scroll-trigger" href="#bantu">Dukung Kami</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#kontak">Kontak</a>
@@ -72,7 +75,7 @@
     </nav>
 
     <header class="masthead" style="background: rgb(0,255,83);background: linear-gradient(90deg, rgba(0,255,83,1) 0%, rgba(67,160,71,1) 0%, rgba(0,124,33,1) 100%);">
-        <div class="container h-100">
+        <div class="container h-100" id="home">
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content">
@@ -212,18 +215,18 @@
                                     <div class="mc-field-group mb-3">
                                         <label for="mce-NAME">Nama <span class="asterisk">*</span>
                                         </label>
-                                        <input type="text" value="" name="NAME" class="required form-control" id="mce-NAME">
+                                        <input type="text" value="" name="NAME" class="required form-control" id="mce-NAME" placeholder="Fulan">
                                     </div>
 
                                     <div class="mc-field-group size1of2 mb-3">
                                         <label for="mce-PHONE">Nomor Ponsel </label>
-                                        <input type="text" name="PHONE" class="form-control" value="" id="mce-PHONE">
+                                        <input type="text" name="PHONE" class="form-control" value="" id="mce-PHONE" placeholder="08111444555">
                                     </div>
 
                                     <div class="mc-field-group mb-3">
                                         <label for="mce-PROVINSI">Provinsi <span class="asterisk">*</span>
                                         </label>
-                                        <select name="PROVINSI" class="required custom-select" id="mce-PROVINSI">
+                                        <select name="PROVINSI" class="required custom-select" id="mce-PROVINSI" placeholder="Jawa Timur">
                                             <option value=""></option>
                                             <option value="Aceh">Aceh</option>
                                             <option value="Bali">Bali</option>
@@ -265,7 +268,7 @@
 
                                     <div class="mc-field-group mb-3">
                                         <label for="mce-KOTA">Kota </label>
-                                        <input type="text" value="" name="KOTA" class="form-control" id="mce-KOTA">
+                                        <input type="text" value="" name="KOTA" class="form-control" id="mce-KOTA" placeholder="Jombang">
                                     </div>
 
                                     <div class="indicates-required text-right"><span class="asterisk">*</span> wajib diisi</div>
@@ -386,17 +389,40 @@
 
     </section>
 
-
-
-    <!-- <section class="cta">
-      <div class="cta-content">
+    <section class="features" id="bantu">
         <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="feature-item center">
+                          <img src="img/sebar.png" style="height:15rem;" alt="pilihan beragam">    
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                    <div >
+                        <h3>Support aplikasi kami melalui <h3 class="font-weight-bold">DONASI</h3></h3>
+                      <p class="text-muted">Ingin bantu kami untuk dapat terus menyediakan jasa terbaik untuk aplikasi kumpulan kajian namun tidak memiliki waktu? Cukup berikan sedekah terbaik anda!</p>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg">Donasi</button>
+                </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-6">
+                  <div>
+                    <h3>Bergabung bersama kami sebagai  <h3 class ="font-weight-bold">SUKARELAWAN</h3></h3>
+                    <p class="text-muted">Ingin bantu kami untuk memastikan update terkini kajian? Membantu mengelola profil ustadz favorit Anda? Membantu verifikasi kajian? Daftarkan diri  Anda sebagai relawan.
+                      </p>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-lg">Daftar</button>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item">
+                        <img src="img/sebar.png" style="height:15rem;" alt="pilihan beragam">
+                        
+                    </div>
+                  </div>
+          </div>
         </div>
-      </div>
-      
-    </section> -->
+    </section>
 
     <section class="contact bg-primary" id="kontak">
         <div class="container">
