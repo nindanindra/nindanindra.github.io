@@ -128,6 +128,7 @@ section h2 {
         color: rgba(255, 255, 255, 0.7);
     }
     #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
         color: white;
     }
@@ -158,9 +159,9 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     color: white;
-    background: url("../img/bg-pattern.png"), #7b4397;
-    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+    background: #497254;
+    background: -webkit-linear-gradient(to left, #43A047, #497254);
+    background: linear-gradient(to left, #43A047, #497254);
 }
 
 header.masthead .header-content {
@@ -487,9 +488,7 @@ footer ul li a.active {
     padding: 30px 0 10px;
 }
 
-.carousel .overview {
-
-}
+.carousel .overview {}
 
 .carousel .overview b {
     text-transform: uppercase;
@@ -539,4 +538,19 @@ footer ul li a.active {
 .carousel .star-rating i {
     font-size: 18px;
     color: #ffdc12;
+}
+
+section.daftar {
+    background: #def7df;
+}
+
+section.bantu {
+    background: #def7df;
+}
+
+p.tagger {
+    /*#43A047, #497254*/
+    color: #43A047;
+    font-variant: small-caps;
+    text-align: center;
 }
