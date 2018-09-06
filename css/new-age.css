@@ -344,37 +344,22 @@ section.contact ul.list-social {
 }
 
 section.contact ul.list-social li a {
-    font-size: 40px;
-    line-height: 80px;
+    font-size: 24px;
+    line-height: 50px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     color: white;
     border-radius: 100%;
 }
 
-section.contact ul.list-social li.social-twitter a {
-    background-color: #1da1f2;
+section.contact ul.list-social li.social-button a {
+    /*#43A047, #497254*/
+    background-color: #43A047;
 }
 
-section.contact ul.list-social li.social-twitter a:hover {
-    background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-    background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-    background-color: #344e86;
-}
-
-section.contact ul.list-social li.social-google-plus a {
-    background-color: #dd4b39;
-}
-
-section.contact ul.list-social li.social-google-plus a:hover {
-    background-color: #d73925;
+section.contact ul.list-social li.social-button a:hover {
+    background-color: #497254;
 }
 
 footer {
@@ -421,9 +406,11 @@ footer ul li a.active {
 }
 
 .btn-outline {
-    color: white;
+    /*#43A047, #497254*/
+    color: #ffffff;
     border: 1px solid;
-    border-color: white;
+    border-color: #43A047;
+    background-color: #43A047;
 }
 
 .btn-outline:hover,
@@ -431,8 +418,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
     color: white;
-    border-color: #fdcc52;
-    background-color: #fdcc52;
+    border-color: #497254;
+    background-color: #497254;
 }
 
 .btn {
@@ -485,14 +472,14 @@ footer ul li a.active {
 }
 
 .carousel .testimonial {
-    padding: 30px 0 10px;
+    padding: 10px 0 10px;
 }
 
 .carousel .overview {}
 
 .carousel .overview b {
     text-transform: uppercase;
-    color: #7AA641;
+    color: #43A047;
 }
 
 .carousel .carousel-control {
@@ -540,6 +527,9 @@ footer ul li a.active {
     color: #ffdc12;
 }
 
+
+/* addition Ninda*/
+
 section.daftar {
     background: #def7df;
 }
@@ -553,4 +543,8 @@ p.tagger {
     color: #43A047;
     font-variant: small-caps;
     text-align: center;
+}
+
+i.quote-tag {
+    color: #43A047;
 }
