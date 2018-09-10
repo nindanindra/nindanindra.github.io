@@ -43,7 +43,7 @@ h6 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -159,9 +159,11 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     color: white;
-    background: #497254;
+    /* background: #497254;
     background: -webkit-linear-gradient(to left, #43A047, #497254);
-    background: linear-gradient(to left, #43A047, #497254);
+    background: linear-gradient(to left, #43A047, #497254); */
+    background: rgb(67,160,130);
+    /* background: linear-gradient(90deg, rgba(67,160,130,1) 0%, rgba(137,160,67,1) 56%, rgba(67,160,71,1) 100%); */
     /* background-image: radial-gradient( circle 963px at 1.9% 5%,  rgba(0,193,80,1) 0%, rgba(0,112,198,1) 100.2% ); */
 }
 
@@ -367,8 +369,8 @@ section.contact ul.list-social li.social-button a:hover {
 footer {
     padding: 25px 0;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    background-color: #222222;
+    color: black;
+    /* background-color: #222222; */
 }
 
 footer p {
@@ -532,12 +534,15 @@ footer ul li a.active {
 
 /* addition Ninda*/
 
-section.daftar {
-    background: #def7df;
-}
+/* section.testimoni {
+    background: #e2ebe8;
+} */
 
 section.bantu {
-    background: #def7df;
+    background: #f4f5f7;
+}
+section.daftar {
+    background:#e2ebe8;
 }
 
 p.tagger {
