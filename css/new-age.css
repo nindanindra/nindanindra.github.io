@@ -162,7 +162,7 @@ header.masthead {
     /* background: #497254;
     background: -webkit-linear-gradient(to left, #43A047, #497254);
     background: linear-gradient(to left, #43A047, #497254); */
-    background: rgb(67,160,130);
+    background: rgb(67, 160, 130);
     /* background: linear-gradient(90deg, rgba(67,160,130,1) 0%, rgba(137,160,67,1) 56%, rgba(67,160,71,1) 100%); */
     /* background-image: radial-gradient( circle 963px at 1.9% 5%,  rgba(0,193,80,1) 0%, rgba(0,112,198,1) 100.2% ); */
 }
@@ -534,6 +534,7 @@ footer ul li a.active {
 
 /* addition Ninda*/
 
+
 /* section.testimoni {
     background: #e2ebe8;
 } */
@@ -541,8 +542,9 @@ footer ul li a.active {
 section.bantu {
     background: #f4f5f7;
 }
+
 section.daftar {
-    background:#e2ebe8;
+    background: #e2ebe8;
 }
 
 p.tagger {
@@ -556,21 +558,22 @@ i.quote-tag {
     color: #43A047;
 }
 
+
 /* addition  */
-.sub-content{
+
+.sub-content {
     font-weight: 100 !important;
     font-size: 20px;
     color: white;
-    
 }
 
 p.testi {
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom:10px !important;
+    margin-bottom: 10px !important;
 }
 
 .bantu {
-    margin: 15px auto;
-    padding:40px 0;
+    margin: 0px auto;
+    padding: 40px 0;
 }
