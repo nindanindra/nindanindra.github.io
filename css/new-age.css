@@ -344,6 +344,7 @@ section.cta .overlay {
 section.contact {
     text-align: center;
     padding: 50px 0;
+    background-color: #e2ebe8;
 }
 
 section.contact h2 {
@@ -382,7 +383,7 @@ footer {
     padding: 25px 0;
     text-align: center;
     color: black;
-    /* background-color: #222222; */
+    background-color: #e2ebe8;
 }
 
 footer p {
@@ -552,11 +553,12 @@ footer ul li a.active {
 } */
 
 section.bantu {
-    background: #f4f5f7;
+    /*background: #f4f5f7;*/
+    background: #e2ebe8;
 }
 
 section.daftar {
-    background: #e2ebe8;
+    background: #ffffff;
 }
 
 p.tagger {
